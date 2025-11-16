@@ -88,7 +88,7 @@ public class reception extends JFrame {
         btn9.addActionListener(e -> new SearchRoom());
 
         JButton btn10 = new JButton("LogIn");
-        btn10.setBounds(750, 15, 200, 30);
+        btn10.setBounds(230, 470, 200, 30);
         btn10.setBackground(new Color(246, 215, 118));
         panel1.add(btn10);
         btn10.addActionListener(e -> {
@@ -97,7 +97,7 @@ public class reception extends JFrame {
         });
 
         JButton btn11 = new JButton("LogOut");
-        btn11.setBounds(750, 58, 200, 30);
+        btn11.setBounds(450, 470, 200, 30);
         btn11.setBackground(new Color(246, 215, 118));
         panel1.add(btn11);
         btn11.addActionListener(e -> {
@@ -130,3 +130,4 @@ public class reception extends JFrame {
         new reception();
     }
 }
+
